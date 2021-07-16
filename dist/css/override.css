@@ -1,0 +1,56 @@
+body {
+    background-image: url('./../img/background.jpg');
+    background-color: #000900;
+    background-size: cover;
+}
+
+#bootstrap-override .icon_round {
+    border-radius: 50%;
+}
+
+.borderbox-top{
+    min-height: 8px;
+    border-bottom:3px solid white;
+    border-top: 1px solid white;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.borderbox-bottom{
+    min-height: 8px;
+    border-top:3px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#bootstrap-override .nav-link {
+    background: #61aa93;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:2rem;
+    padding-right: 2rem;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+@media (min-width: 992px){
+    #bootstrap-override .top-adjust {
+        position: absolute;
+        top: 10rem;
+    }
+    #bootstrap-override .spacer {
+        padding-top: 5rem;
+    }
+}
+
+#bootstrap-override h1 {
+    color: white;
+    font-size: 5rem;
+}
+
