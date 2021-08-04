@@ -2,10 +2,19 @@ body {
     background-image: url('./../img/background.jpg');
     background-color: #000900;
     background-size: cover;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-style:Extra-light 200;
+    letter-spacing: 0.2em;
 }
 
 #bootstrap-override .icon_round {
     border-radius: 50%;
+}
+
+#bootstrap-override .navbar-toggler {
+    color: rgba(255, 255, 255, 1);
+    background-color: black;
+    border: 1px solid white;
 }
 
 .borderbox-top{
@@ -39,6 +48,74 @@ body {
     margin-right: 12px;
 }
 
+#bootstrap-override .nav-link:hover {
+    color: #61aa93;
+    background: #ffffff;
+}
+
+#bootstrap-override h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.footer-border {
+    min-height: 5px;
+    width: 5%;
+    border-top:3px solid white;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.footer-icons {
+    color: white;
+    font-size: 2rem;
+    padding: 0.3rem;
+}
+
+.press_head {
+    color: rgb(0, 230, 137);
+    text-align: center;
+    font-family: 'Futura LT', sans-serif;
+    font-weight: 200;
+    font-size: 1.7rem;
+    letter-spacing: 0rem;
+}
+
+.press_con{
+    color: white;
+    text-align: center;
+    font-family: 'Futura LT', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    letter-spacing: 0rem;
+}
+
+.bio-con {
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+.contact-con{
+    text-decoration: underline;
+    color: rgb(47, 47, 51);
+    text-align:center;
+    letter-spacing: 0.1rem;
+    font-size: 1.7rem;
+}
+
+.eq-height-s {
+    min-height: 115px;
+}
+
+.eq-height {
+    min-height: 150px;
+}
+
+.bio-spacer {
+    padding-top: 2rem;
+}
+
 @media (min-width: 992px){
     #bootstrap-override .top-adjust {
         position: absolute;
@@ -47,10 +124,26 @@ body {
     #bootstrap-override .spacer {
         padding-top: 5rem;
     }
+    #bootstrap-override h1 {
+        color: white;
+        font-size: 4.4rem;
+    }
+    #bootstrap-override .bio-div {
+        max-width: 895px;
+    }
 }
 
-#bootstrap-override h1 {
-    color: white;
-    font-size: 5rem;
+@media (min-width:1200px){
+    #bootstrap-override .bio-div {
+        max-width: 895px;
+    }
 }
+
+@media (min-width:1400px){
+    #bootstrap-override .bio-div {
+        max-width: 895px;
+    }
+}
+
+
 
